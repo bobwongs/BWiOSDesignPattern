@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		B47A36D81DFE5D5F00E130AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47A36D71DFE5D5F00E130AA /* main.m */; };
 		B47A36DB1DFE5D5F00E130AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B47A36DA1DFE5D5F00E130AA /* AppDelegate.m */; };
-		B47A36DE1DFE5D5F00E130AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47A36DD1DFE5D5F00E130AA /* ViewController.m */; };
 		B47A36E11DFE5D5F00E130AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47A36DF1DFE5D5F00E130AA /* Main.storyboard */; };
 		B47A36E31DFE5D6000E130AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47A36E21DFE5D6000E130AA /* Assets.xcassets */; };
 		B47A36E61DFE5D6000E130AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47A36E41DFE5D6000E130AA /* LaunchScreen.storyboard */; };
 		B47A36F11DFE5D6000E130AA /* BWiOSDesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47A36F01DFE5D6000E130AA /* BWiOSDesignPatternTests.m */; };
 		B47A36FC1DFE5D6000E130AA /* BWiOSDesignPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47A36FB1DFE5D6000E130AA /* BWiOSDesignPatternUITests.m */; };
+		B4B81BAF1EC952AB000D880A /* BWHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B81BAE1EC952AB000D880A /* BWHomeTableViewController.m */; };
+		B4B81BB61EC95DDC000D880A /* BWComplexMVCSubcontrollersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B81BB51EC95DDC000D880A /* BWComplexMVCSubcontrollersVC.m */; };
+		B4B81BB91EC95E1D000D880A /* BWSub0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B81BB81EC95E1D000D880A /* BWSub0ViewController.m */; };
+		B4B81BBC1EC95E24000D880A /* BWSub1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B81BBB1EC95E24000D880A /* BWSub1ViewController.m */; };
+		B4B81BC31EC9613F000D880A /* BWSub2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B81BC11EC9613F000D880A /* BWSub2ViewController.m */; };
+		B4B81BC41EC9613F000D880A /* BWSub2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B81BC21EC9613F000D880A /* BWSub2ViewController.xib */; };
+		B4BB63C51ECADFE100629EDE /* BWSingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BB63C41ECADFE100629EDE /* BWSingletonClass.m */; };
+		B4BB63C81ECAE1A100629EDE /* BWSingletonPatternVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BB63C71ECAE1A100629EDE /* BWSingletonPatternVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		B47A36D71DFE5D5F00E130AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B47A36D91DFE5D5F00E130AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B47A36DA1DFE5D5F00E130AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B47A36DC1DFE5D5F00E130AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B47A36DD1DFE5D5F00E130AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B47A36E01DFE5D5F00E130AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B47A36E21DFE5D6000E130AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B47A36E51DFE5D6000E130AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,21 @@
 		B47A36F71DFE5D6000E130AA /* BWiOSDesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWiOSDesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47A36FB1DFE5D6000E130AA /* BWiOSDesignPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWiOSDesignPatternUITests.m; sourceTree = "<group>"; };
 		B47A36FD1DFE5D6000E130AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B81BAD1EC952AB000D880A /* BWHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeTableViewController.h; sourceTree = "<group>"; };
+		B4B81BAE1EC952AB000D880A /* BWHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeTableViewController.m; sourceTree = "<group>"; };
+		B4B81BB41EC95DDC000D880A /* BWComplexMVCSubcontrollersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWComplexMVCSubcontrollersVC.h; sourceTree = "<group>"; };
+		B4B81BB51EC95DDC000D880A /* BWComplexMVCSubcontrollersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWComplexMVCSubcontrollersVC.m; sourceTree = "<group>"; };
+		B4B81BB71EC95E1D000D880A /* BWSub0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSub0ViewController.h; sourceTree = "<group>"; };
+		B4B81BB81EC95E1D000D880A /* BWSub0ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSub0ViewController.m; sourceTree = "<group>"; };
+		B4B81BBA1EC95E24000D880A /* BWSub1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSub1ViewController.h; sourceTree = "<group>"; };
+		B4B81BBB1EC95E24000D880A /* BWSub1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSub1ViewController.m; sourceTree = "<group>"; };
+		B4B81BC01EC9613F000D880A /* BWSub2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSub2ViewController.h; sourceTree = "<group>"; };
+		B4B81BC11EC9613F000D880A /* BWSub2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSub2ViewController.m; sourceTree = "<group>"; };
+		B4B81BC21EC9613F000D880A /* BWSub2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWSub2ViewController.xib; sourceTree = "<group>"; };
+		B4BB63C31ECADFE100629EDE /* BWSingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSingletonClass.h; sourceTree = "<group>"; };
+		B4BB63C41ECADFE100629EDE /* BWSingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSingletonClass.m; sourceTree = "<group>"; };
+		B4BB63C61ECAE1A100629EDE /* BWSingletonPatternVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSingletonPatternVC.h; sourceTree = "<group>"; };
+		B4BB63C71ECAE1A100629EDE /* BWSingletonPatternVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSingletonPatternVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +123,9 @@
 			children = (
 				B47A36D91DFE5D5F00E130AA /* AppDelegate.h */,
 				B47A36DA1DFE5D5F00E130AA /* AppDelegate.m */,
-				B47A36DC1DFE5D5F00E130AA /* ViewController.h */,
-				B47A36DD1DFE5D5F00E130AA /* ViewController.m */,
 				B47A36DF1DFE5D5F00E130AA /* Main.storyboard */,
+				B4B81BAA1EC95280000D880A /* MVC */,
 				B47A36E21DFE5D6000E130AA /* Assets.xcassets */,
-				B47A36E41DFE5D6000E130AA /* LaunchScreen.storyboard */,
-				B47A36E71DFE5D6000E130AA /* Info.plist */,
 				B47A36D61DFE5D5F00E130AA /* Supporting Files */,
 			);
 			path = BWiOSDesignPattern;
@@ -118,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				B47A36D71DFE5D5F00E130AA /* main.m */,
+				B47A36E71DFE5D6000E130AA /* Info.plist */,
+				B47A36E41DFE5D6000E130AA /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +157,60 @@
 				B47A36FD1DFE5D6000E130AA /* Info.plist */,
 			);
 			path = BWiOSDesignPatternUITests;
+			sourceTree = "<group>";
+		};
+		B4B81BAA1EC95280000D880A /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				B4B81BAC1EC95296000D880A /* Home */,
+				B4B81BAB1EC95280000D880A /* ComplexMVC */,
+				B4BB63C21ECADFBC00629EDE /* SingletonPattern */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		B4B81BAB1EC95280000D880A /* ComplexMVC */ = {
+			isa = PBXGroup;
+			children = (
+				B4B81BB31EC95DDC000D880A /* SubControllers */,
+			);
+			path = ComplexMVC;
+			sourceTree = "<group>";
+		};
+		B4B81BAC1EC95296000D880A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4B81BAD1EC952AB000D880A /* BWHomeTableViewController.h */,
+				B4B81BAE1EC952AB000D880A /* BWHomeTableViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B4B81BB31EC95DDC000D880A /* SubControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4B81BB41EC95DDC000D880A /* BWComplexMVCSubcontrollersVC.h */,
+				B4B81BB51EC95DDC000D880A /* BWComplexMVCSubcontrollersVC.m */,
+				B4B81BB71EC95E1D000D880A /* BWSub0ViewController.h */,
+				B4B81BB81EC95E1D000D880A /* BWSub0ViewController.m */,
+				B4B81BBA1EC95E24000D880A /* BWSub1ViewController.h */,
+				B4B81BBB1EC95E24000D880A /* BWSub1ViewController.m */,
+				B4B81BC01EC9613F000D880A /* BWSub2ViewController.h */,
+				B4B81BC11EC9613F000D880A /* BWSub2ViewController.m */,
+				B4B81BC21EC9613F000D880A /* BWSub2ViewController.xib */,
+			);
+			path = SubControllers;
+			sourceTree = "<group>";
+		};
+		B4BB63C21ECADFBC00629EDE /* SingletonPattern */ = {
+			isa = PBXGroup;
+			children = (
+				B4BB63C31ECADFE100629EDE /* BWSingletonClass.h */,
+				B4BB63C41ECADFE100629EDE /* BWSingletonClass.m */,
+				B4BB63C61ECAE1A100629EDE /* BWSingletonPatternVC.h */,
+				B4BB63C71ECAE1A100629EDE /* BWSingletonPatternVC.m */,
+			);
+			path = SingletonPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B47A36E61DFE5D6000E130AA /* LaunchScreen.storyboard in Resources */,
+				B4B81BC41EC9613F000D880A /* BWSub2ViewController.xib in Resources */,
 				B47A36E31DFE5D6000E130AA /* Assets.xcassets in Resources */,
 				B47A36E11DFE5D5F00E130AA /* Main.storyboard in Resources */,
 			);
@@ -276,9 +350,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B47A36DE1DFE5D5F00E130AA /* ViewController.m in Sources */,
+				B4B81BB61EC95DDC000D880A /* BWComplexMVCSubcontrollersVC.m in Sources */,
+				B4B81BC31EC9613F000D880A /* BWSub2ViewController.m in Sources */,
 				B47A36DB1DFE5D5F00E130AA /* AppDelegate.m in Sources */,
+				B4B81BB91EC95E1D000D880A /* BWSub0ViewController.m in Sources */,
+				B4B81BAF1EC952AB000D880A /* BWHomeTableViewController.m in Sources */,
+				B4B81BBC1EC95E24000D880A /* BWSub1ViewController.m in Sources */,
 				B47A36D81DFE5D5F00E130AA /* main.m in Sources */,
+				B4BB63C51ECADFE100629EDE /* BWSingletonClass.m in Sources */,
+				B4BB63C81ECAE1A100629EDE /* BWSingletonPatternVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWiOSDesignPattern/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -438,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWiOSDesignPattern/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -516,6 +598,7 @@
 				B47A37021DFE5D6000E130AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B47A37031DFE5D6000E130AA /* Build configuration list for PBXNativeTarget "BWiOSDesignPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +607,7 @@
 				B47A37051DFE5D6000E130AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B47A37061DFE5D6000E130AA /* Build configuration list for PBXNativeTarget "BWiOSDesignPatternUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +616,7 @@
 				B47A37081DFE5D6000E130AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
