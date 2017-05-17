@@ -9,6 +9,7 @@
 #import "BWObserverPatternVC.h"
 
 #define NS_NOTIFICATION_DEFAULT_CENTER [NSNotificationCenter defaultCenter]
+
 NSString *const BWNotification = @"BWNotification";
 NSString *const BWKeyPathName = @"name";
 NSString *const BWKeyPathNameLength = @"name.length";
@@ -36,6 +37,7 @@ NSString *const BWKeyPathNameDescription = @"name.description";
 
 - (void)dealloc {
     [NS_NOTIFICATION_DEFAULT_CENTER removeObserver:self];
+    
     [self removeObserver:self forKeyPath:BWKeyPathName context:nil];
     [self removeObserver:self forKeyPath:BWKeyPathNameLength context:nil];
     [self removeObserver:self forKeyPath:BWKeyPathNameDescription context:nil];
