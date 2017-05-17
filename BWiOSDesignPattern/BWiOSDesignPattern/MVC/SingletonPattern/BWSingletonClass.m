@@ -8,6 +8,8 @@
 
 #import "BWSingletonClass.h"
 
+NSString *const BWKeyPathContentOffset = @"contentOffset";
+
 @implementation BWSingletonClass
 
 + (instancetype)sharedInstance {
@@ -18,6 +20,10 @@
     });
     
     return sharedInstance;
+}
+
+- (void)willChangeValueForKey:(NSString *)key {
+    
 }
 
 @end

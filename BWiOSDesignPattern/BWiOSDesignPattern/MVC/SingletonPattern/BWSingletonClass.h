@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString *const BWKeyPathContentOffset;
+
 @interface BWSingletonClass : NSObject
 
 @property (strong, nonatomic) NSString *name;  ///< Name

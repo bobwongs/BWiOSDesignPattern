@@ -23,7 +23,8 @@
     
     self.dataSource = @[
                         @"home_to_complex_mvc_subcontroller",
-                        @"home_to_singleton_pattern"
+                        @"home_to_singleton_pattern",
+                        @"home_to_observer_pattern"
                         ];
 }
 
@@ -54,7 +55,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
 
-    [self performSegueWithIdentifier:_dataSource[indexPath.row] sender:nil];
+    [self performSegueWithIdentifier:_dataSource[indexPath.row] sender:_dataSource[indexPath.row]];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    segue.destinationViewController.title = sender;
 }
 
 @end
