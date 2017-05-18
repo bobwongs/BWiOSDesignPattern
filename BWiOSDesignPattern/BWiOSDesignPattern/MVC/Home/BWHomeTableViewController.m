@@ -25,7 +25,9 @@
                         @"home_to_complex_mvc_subcontroller",
                         @"home_to_singleton_pattern",
                         @"home_to_observer_pattern",
-                        @"home_to_class_cluster_pattern"
+                        @"home_to_class_cluster_pattern",
+                        @"home_to_delegate_pattern",
+                        @"home_to_target_action_pattern"
                         ];
 }
 

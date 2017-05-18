@@ -21,6 +21,8 @@
 		B494E5441ECD31DD0048C579 /* EOCEmployeeDeveloper.m in Sources */ = {isa = PBXBuildFile; fileRef = B494E5431ECD31DD0048C579 /* EOCEmployeeDeveloper.m */; };
 		B494E5471ECD31E60048C579 /* EOCEmployeeDesigner.m in Sources */ = {isa = PBXBuildFile; fileRef = B494E5461ECD31E60048C579 /* EOCEmployeeDesigner.m */; };
 		B494E54A1ECD31EE0048C579 /* EOCEmployeeFinance.m in Sources */ = {isa = PBXBuildFile; fileRef = B494E5491ECD31EE0048C579 /* EOCEmployeeFinance.m */; };
+		B494E5C61ECD84A90048C579 /* BWDelegatePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = B494E5C51ECD84A90048C579 /* BWDelegatePattern.m */; };
+		B494E5CA1ECD89910048C579 /* BWTargetActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B494E5C91ECD89910048C579 /* BWTargetActionViewController.m */; };
 		B4B81BAF1EC952AB000D880A /* BWHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B81BAE1EC952AB000D880A /* BWHomeTableViewController.m */; };
 		B4B81BB61EC95DDC000D880A /* BWComplexMVCSubcontrollersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B81BB51EC95DDC000D880A /* BWComplexMVCSubcontrollersVC.m */; };
 		B4B81BB91EC95E1D000D880A /* BWSub0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B81BB81EC95E1D000D880A /* BWSub0ViewController.m */; };
@@ -77,6 +79,10 @@
 		B494E5461ECD31E60048C579 /* EOCEmployeeDesigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployeeDesigner.m; sourceTree = "<group>"; };
 		B494E5481ECD31EE0048C579 /* EOCEmployeeFinance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEmployeeFinance.h; sourceTree = "<group>"; };
 		B494E5491ECD31EE0048C579 /* EOCEmployeeFinance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployeeFinance.m; sourceTree = "<group>"; };
+		B494E5C41ECD84A90048C579 /* BWDelegatePattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWDelegatePattern.h; sourceTree = "<group>"; };
+		B494E5C51ECD84A90048C579 /* BWDelegatePattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWDelegatePattern.m; sourceTree = "<group>"; };
+		B494E5C81ECD89910048C579 /* BWTargetActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWTargetActionViewController.h; sourceTree = "<group>"; };
+		B494E5C91ECD89910048C579 /* BWTargetActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWTargetActionViewController.m; sourceTree = "<group>"; };
 		B4B81BAD1EC952AB000D880A /* BWHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeTableViewController.h; sourceTree = "<group>"; };
 		B4B81BAE1EC952AB000D880A /* BWHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeTableViewController.m; sourceTree = "<group>"; };
 		B4B81BB41EC95DDC000D880A /* BWComplexMVCSubcontrollersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWComplexMVCSubcontrollersVC.h; sourceTree = "<group>"; };
@@ -194,6 +200,8 @@
 			children = (
 				B48ECBF91ECC4F4700A62694 /* BWDelegateViewController.h */,
 				B48ECBFA1ECC4F4700A62694 /* BWDelegateViewController.m */,
+				B494E5C41ECD84A90048C579 /* BWDelegatePattern.h */,
+				B494E5C51ECD84A90048C579 /* BWDelegatePattern.m */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";
@@ -216,6 +224,15 @@
 			path = Home/ClassCluster;
 			sourceTree = "<group>";
 		};
+		B494E5C71ECD89730048C579 /* TargetAction */ = {
+			isa = PBXGroup;
+			children = (
+				B494E5C81ECD89910048C579 /* BWTargetActionViewController.h */,
+				B494E5C91ECD89910048C579 /* BWTargetActionViewController.m */,
+			);
+			path = TargetAction;
+			sourceTree = "<group>";
+		};
 		B4B81BAA1EC95280000D880A /* MVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +242,7 @@
 				B48ECBF41ECBF38F00A62694 /* ObserverPattern */,
 				B48ECBF81ECC4F3A00A62694 /* Delegate */,
 				B494E53B1ECD30230048C579 /* ClassCluster */,
+				B494E5C71ECD89730048C579 /* TargetAction */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -414,10 +432,12 @@
 				B4B81BC31EC9613F000D880A /* BWSub2ViewController.m in Sources */,
 				B47A36DB1DFE5D5F00E130AA /* AppDelegate.m in Sources */,
 				B4B81BB91EC95E1D000D880A /* BWSub0ViewController.m in Sources */,
+				B494E5CA1ECD89910048C579 /* BWTargetActionViewController.m in Sources */,
 				B4B81BAF1EC952AB000D880A /* BWHomeTableViewController.m in Sources */,
 				B494E53E1ECD30340048C579 /* BWClassClusterViewController.m in Sources */,
 				B48ECBFB1ECC4F4700A62694 /* BWDelegateViewController.m in Sources */,
 				B494E5471ECD31E60048C579 /* EOCEmployeeDesigner.m in Sources */,
+				B494E5C61ECD84A90048C579 /* BWDelegatePattern.m in Sources */,
 				B4B81BBC1EC95E24000D880A /* BWSub1ViewController.m in Sources */,
 				B494E5411ECD31230048C579 /* EOCEmployee.m in Sources */,
 				B494E54A1ECD31EE0048C579 /* EOCEmployeeFinance.m in Sources */,

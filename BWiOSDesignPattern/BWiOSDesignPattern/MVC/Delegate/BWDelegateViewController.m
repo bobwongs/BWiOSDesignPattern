@@ -7,8 +7,9 @@
 //
 
 #import "BWDelegateViewController.h"
+#import "BWDelegatePattern.h"
 
-@interface BWDelegateViewController ()
+@interface BWDelegateViewController () <BWMyDelegate>
 
 @end
 
@@ -16,22 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    BWDelegatePattern *pattern = [BWDelegatePattern new];
+    pattern.delegate = self;
+    [pattern doDelegateRequiredWork];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)doRequiredWork {
+    NSLog(@"do required works");
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)doMyWork {
+    NSLog(@"do my work");
 }
-*/
 
 @end
